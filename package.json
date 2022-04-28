@@ -11,5 +11,11 @@
     "CodeChallenge"
   ],
   "author": "Gerardo Sánchez Alba",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^26.0.0"
+  },
+  "dependencies": {
+    "express": "^4.18.0"
+  }
 }
