@@ -1,0 +1,15 @@
+{
+  "name": "visualthinkingapi_challenge",
+  "version": "1.0.0",
+  "description": "\"Code Challenge\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "node node_modules/jest/bin/jest.js"
+  },
+  "keywords": [
+    "API",
+    "CodeChallenge"
+  ],
+  "author": "Gerardo Sánchez Alba",
+  "license": "ISC"
+}
