@@ -110,7 +110,7 @@ describe("Unit test for StudentServices class", () => {
           },
         ]
         let credits = 500
-        let result = StudentServices.getStudentsWithAtLeastNCredits(student_list, credits)
+        let result = StudentServices.getStudentsAboveCredits(student_list, credits)
 
         expect(result).toEqual([{
             "id": "6264d5d82eb0f4917bd0d332",
@@ -135,7 +135,7 @@ describe("Unit test for StudentServices class", () => {
             "previousCourses": 10,
             "haveCertification": true
           }])
-          result = StudentServices.getStudentsWithAtLeastNCredits(student_list, 300)
+          result = StudentServices.getStudentsAboveCredits(student_list, 300)
         expect(result).toEqual(student_list)
         
     })
