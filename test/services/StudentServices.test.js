@@ -68,7 +68,7 @@ describe("Unit test for StudentServices class", () => {
             "haveCertification": true
           },
         ]
-        const status = true
+        const status = "true"
         const result = StudentServices.getStudentEmailByCertifiedStatus(student_list, status)
         expect(result).toEqual(["Jewell@visualpartnership.xyz", "Sharlene@visualpartnership.xyz"])
     })
